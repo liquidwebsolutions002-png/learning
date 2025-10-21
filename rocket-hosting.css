@@ -1,0 +1,135 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.hosting-section {
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 40px;
+  text-align: left;
+}
+
+.icon-container img {
+  width: 56px;
+  height: 56px;
+  margin-bottom: 20px;
+}
+
+.hosting-section h1 {
+  font-size: 2rem;
+  color: #111;
+  margin-bottom: 20px;
+}
+
+.hosting-section p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+
+.features li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 0.95rem;
+}
+
+.features li i {
+  color: #00aaff;
+  margin-right: 10px;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-primary,
+.btn-outline {
+  display: inline-block;
+  padding: 12px 24px;
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #00aaff, #0077ff);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg, #0099ee, #0066ee);
+}
+
+.btn-outline {
+  border: 2px solid #0077ff;
+  color: #0077ff;
+}
+
+.btn-outline:hover {
+  background: #0077ff;
+  color: #fff;
+}
+/* Dropdown Menu */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: -20px; /* 👈 Moves the dropdown 20px to the left */
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  border-radius: 6px;
+  padding: 20px;
+  min-width: 700px;
+  z-index: 1000;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+  gap: 30px;
+}
+
+.dropdown-content .menu-column {
+  flex: 1;
+}
+
+.dropdown-content h3 {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #111;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 6px 0;
+  color: #333;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.dropdown-content a span {
+  display: block;
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.dropdown-content a:hover {
+  color: #00a86b;
+}
